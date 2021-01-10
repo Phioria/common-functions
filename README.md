@@ -30,7 +30,7 @@ console.log(PhioFunctions.moneyStringToNumeric(1234)); //logs 0
 
 ## Support
 
-Feel free to contact me at phioria@gmail.com with questions/suggestions
+Feel free to contact me at phioria@protonmail.com with questions/suggestions
 
 ## Contributing
 
