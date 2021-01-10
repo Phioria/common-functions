@@ -44,6 +44,6 @@ moneyStringToNumeric = function(input) {
 }
 
 module.exports = {
-  moneyStringToNumeric,
+  moneyNumericToString,
   moneyStringToNumeric
 }
