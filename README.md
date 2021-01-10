@@ -22,7 +22,7 @@ const PhioFunctions = require('phio-functions');
 
 ### moneyNumericToString()
 
-This function takes a single numeric input and returns a string in USD currency format.  If given input is not numeric, the function will return NaN
+This function takes a single numeric input and returns a string in USD currency format.  If given input is not numeric, the function will return NaN.
 
 ```js script
 console.log(PhioFunctions.moneyNumericToString(1234)); // logs "$1,234.00"
@@ -32,12 +32,13 @@ console.log(PhioFunctions.moneyNumericToString("1234")); // logs NaN
 
 ### moneyStringToNumeric()
 
-This function takes a single string expected to be USD currency and returns the numeric version of the in input.  If the input is not a string, the function returns 0
+This function takes a single string expected to be USD currency and returns the numeric version of the in input.  If the input is not a string, the function returns 0.  If the input is a string, but that string doesn't represent a number, the function returns NaN.
 
 ```js script
 console.log(PhioFunctions.moneyStringToNumeric("$1,234.00")); // logs 1234
-console.log(PhioFunctions.moneyStringToNumeric("1234")); //logs 1234
-console.log(PhioFunctions.moneyStringToNumeric(1234)); //logs 0
+console.log(PhioFunctions.moneyStringToNumeric("1234")); // logs 1234
+console.log(PhioFunctions.moneyStringToNumeric(1234)); // logs 0
+console.log(PhioFunctions.moneyStringToNumeric("Not-A-Number")); // logs NaN
 ```
 
 ## Support
