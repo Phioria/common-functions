@@ -11,7 +11,7 @@ Version 0.0.1 include just 2 functions, moneyNumericToString() and moneyStringTo
 Use NPM to install:
 
 ```bash
-npm install [future-home-of-link]
+npm install phio-functions
 ```
 
 ## Usage
