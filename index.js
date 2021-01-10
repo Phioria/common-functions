@@ -39,11 +39,12 @@ moneyStringToNumeric = function(input) {
   // input = string that might include a "$" prefix, 0 or more "," separating numbers, and a "." in the decimal spot
   // output = return a numeric without the extra characters.
   // If input is not a string, output returns 0
-  
+  // If input is a string but doesn't represent a number, output returns NaN
+
   return typeof(input) === "string" ? Number(input.trim().replace("$", "").replaceAll(",", "")) : 0;
 }
 
-module.exports = {
+export {
   moneyNumericToString,
   moneyStringToNumeric
-}
+};
