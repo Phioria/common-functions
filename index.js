@@ -42,9 +42,9 @@ moneyStringToNumeric = function(input) {
   // If input is a string but doesn't represent a number, output returns NaN
 
   return typeof(input) === "string" ? Number(input.trim().replace("$", "").replaceAll(",", "")) : 0;
-}
+};
 
-export {
+module.exports = {
   moneyNumericToString,
   moneyStringToNumeric
 };
