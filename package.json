@@ -1,6 +1,6 @@
 {
   "name": "phio-functions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Diverse functions for Phioria projects",
   "main": "index.js",
   "scripts": {
