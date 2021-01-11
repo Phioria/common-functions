@@ -2,9 +2,9 @@
 
 This is a library primarily for my personal use.  It is very limited in scope at the moment, and isn't intended for wide usage.  This is my first NPM release, and it is intended primarily as a learning exercise for me that will hopefully have continuing functionality as well.
 
-## Version 0.0.2
+## Version
 
-Version 0.0.2 includes only 2 functions, moneyNumericToString() and moneyStringToNumeric().
+This version only includes 2 functions, moneyNumericToString() and moneyStringToNumeric().
 
 ## Installation
 
@@ -18,6 +18,7 @@ npm install phio-functions
 
 ```js script
 const PhioFunctions = require('phio-functions');
+
 ```
 
 ### moneyNumericToString()
